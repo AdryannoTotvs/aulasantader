@@ -7,13 +7,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.4.5</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.project</groupId>
+	<groupId>com.projeto</groupId>
 	<artifactId>bootcamp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>bootcamp</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo projeto Spring Boot MAJOROS</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
