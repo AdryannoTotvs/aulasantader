@@ -7,11 +7,11 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     #url: jdbc:postgresql://localhost:5432/postgres
-    url: postgres://gxicaibdjnvizw:f64a10df017c1fd056d576edb7cf6cfb19ed4a3c574ca2b3528f7d952dc5646b@ec2-34-195-143-54.compute-1.amazonaws.com:5432/d440av20is6eok
+    url: postgres://plivhiiqemfdad:cccaa9842d33e6988605ffeb108a9ccf6caae711ffc77385b5282feee5a4dfe5@ec2-52-4-111-46.compute-1.amazonaws.com:5432/dadtl92cel9hcu
     #username: postgres
-    username: gxicaibdjnvizw
+    username: plivhiiqemfdad
     #password: 123456
-    password: f64a10df017c1fd056d576edb7cf6cfb19ed4a3c574ca2b3528f7d952dc5646b
+    password: cccaa9842d33e6988605ffeb108a9ccf6caae711ffc77385b5282feee5a4dfe5
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -20,4 +20,4 @@ spring:
       ddl-auto: none
 
 application:
-  description: Projeto criado para o bootcamp DIO - Santander
+  description: Projeto criado para TESTE 
