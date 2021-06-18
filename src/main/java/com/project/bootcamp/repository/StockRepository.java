@@ -14,10 +14,10 @@ import com.project.bootcamp.model.Stock;
 public interface StockRepository extends JpaRepository<Stock, Long> {
 
     public Optional<Stock> findByNameAndDate(String name, LocalDate date);
-
     @Query("SELECT stock FROM Stock stock WHERE stock.name = :name AND stock.date = :date AND stock.id <> :id ")
+    
     public Optional<Stock> findByName(String name, Long id, LocalDate date);
-
     @Query("SELECT stock FROM Stock stock WHERE stock.date = CURRENT_DATE ")
+    
     Optional<List<Stock>> findByCurrentDate();
 }
