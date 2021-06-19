@@ -20,4 +20,4 @@ spring:
       ddl-auto: none
 
 application:
-  description: Projeto criado para TESTE 
+  description: Projeto criado para TESTE
