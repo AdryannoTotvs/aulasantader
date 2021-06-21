@@ -2,9 +2,9 @@ package com.project.bootcamp.exceptions;
 
 public class ExceptionResponse {
 
-    private String message;
+    private final String message;
 
-    public ExceptionResponse(String message){
+    public ExceptionResponse(String message) {
         this.message = message;
     }
 

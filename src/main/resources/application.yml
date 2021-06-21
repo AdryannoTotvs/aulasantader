@@ -1,23 +1,21 @@
 server:
   port: 8080
   servlet:
-    context-path: /bootcamp
+    context-path: /appsantander
 
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    #url: jdbc:postgresql://localhost:5432/postgres
     url: postgres://vvxlmwfomfwxnj:c0bc18f6a76d628dbee4511a350ee74f475ab51fcdce5d7dde3065cdf4024e59@ec2-174-129-225-160.compute-1.amazonaws.com:5432/deum7jlp8dmt7q
-    #username: postgres
     username: vvxlmwfomfwxnj
-    #password: 123456
     password: c0bc18f6a76d628dbee4511a350ee74f475ab51fcdce5d7dde3065cdf4024e59
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: true
+    generate-ddl: false
     hibernate:
       ddl-auto: none
 
 application:
-  description: Projeto criado para TESTE
+  description: Project created for DIO bootcamp - Santander dev Week
+  version: 1.0
